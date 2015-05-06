@@ -708,8 +708,22 @@ input[type=number]::-webkit-outer-spin-button {
 	float: right;
 }
 
+/* BLOG V2 */
+.blog .blog-content .blog-post-img img {
+	width: 100%;
+}
 
-/*BLOG V1*/
+.blog .blog-content .blog-post-v2 {
+	/*position: relative;*/
+	margin-bottom: 40px;
+}
+
+.blog .blog-content .blog-post-v2 h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* BLOG V1 */
 .blog {
 	font-weight: 300;
 	margin-top: 20px;
@@ -728,14 +742,38 @@ input[type=number]::-webkit-outer-spin-button {
 	margin-top: 20px;
 }
 
-.blog .blog-content .blog-post span i {
+.blog .blog-content .blog-post {
+	margin-bottom: 20px;
+}
+
+/*.blog .blog-content .blog-post .blog-content-meta {
+	position: absolute;
+	bottom: 0;
+}*/
+
+.blog .blog-content .blog-post .blog-content-meta i,
+.blog .blog-content .blog-post-v2 .blog-content-meta i {
 	margin-right: 6px;
 	margin-left: 10px;
 }
 
-.blog .blog-content .blog-content-summary p {
+.blog .blog-content .blog-post .blog-content-meta i:first-child,
+.blog .blog-content .blog-post-v2 .blog-content-meta i:first-child {
+	margin-left: 0;
+}
+
+.blog .blog-content .blog-post-v2 .blog-post-btn {
+	margin-bottom: 13px;
+}
+
+.blog .blog-content .blog-post .blog-content-summary p,
+.blog .blog-content .blog-post-v2 .blog-content-summary p {
 	font-size: 16px;
 	margin-top: 20px;
+}
+
+.blog .blog-content .blog-post-v2 .blog-content-summary p {
+	margin-top: 10px;
 }
 
 .blog .blog-content .pagination ul li {
