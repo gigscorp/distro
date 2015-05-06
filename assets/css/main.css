@@ -710,6 +710,11 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 /*BLOG V1*/
+.blog {
+	font-weight: 300;
+	margin-top: 20px;
+}
+
 .blog .blog-content span.blog-content-category {
 	margin-top: 20px;
 	font-size: 18px;
@@ -719,7 +724,7 @@ input[type=number]::-webkit-outer-spin-button {
 	margin-left: 0;
 }
 
-.blog .blog-content .blog-post {
+.blog .blog-content {
 	margin-top: 20px;
 }
 
@@ -753,7 +758,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .sidebar {
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 }
 
 .sidebar .latest-posts,
@@ -888,7 +893,6 @@ input[type=number]::-webkit-outer-spin-button {
 	-webkit-column-width: 25em;
 	-moz-column-gap: 2.6em;
 	-webkit-column-gap: 2.6em;
-	font-weight: 300;
 }
 
 .blog .blog-content .masonry .item {
