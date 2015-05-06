@@ -244,16 +244,20 @@ header .cart .shopping-cart {
 	width: 100%;
 }
 
+.banner .row {
+	margin-top: 30px;
+}
+
 .banner .banner-left {
 	/*width: 100%;*/
 	height: 500px;
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 	background-color: #aaa;
 	/*position: relative;*/
 }
 
 .banner .banner-right {
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 }
 
 .banner .banner-left p, .banner .banner-right p {
@@ -272,6 +276,16 @@ header .cart .shopping-cart {
 	background-color: #aaa;
 	height: 235px;
 	margin-bottom: 30px;
+}
+
+.banner .banner-square {
+	height: 20em;
+	background-color: black;
+}
+
+.banner .banner-lite {
+	height: 12em;
+	background-color: black;
 }
 
 .title, .desc {
@@ -371,6 +385,62 @@ header .cart .shopping-cart {
 	position: absolute;
 	right: 10px;
 	top: 16px;
+}
+
+/*HOME V2 TWEAK*/
+
+.product-list .arrow-v2 {
+	position: absolute;
+	z-index: 99;
+	left: 15px;
+	right: 15px;
+}
+
+.product-list-v2 {
+	margin-top: 30px;
+}
+
+.product-list .arrow-v2 .arrow-left {
+	left: 0;
+}
+
+.product-list .arrow-v2 .arrow-right {
+	right: 0;
+}
+
+.product-leader {
+	position: relative;
+}
+
+.product-leader .product-overlay {
+	position: absolute;
+	background-color: rgba(0,0,0,0.6);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	text-align: center;
+}
+
+.product-leader .product-overlay p {
+	margin-top: 30%;
+	font-size: 40px;
+	padding: 0 20px;
+	color: #fff;
+}
+
+.product-leader .product-overlay span {
+	float: none;
+	color: #fff;
+}
+
+.product-leader .product-overlay span i {
+	margin-right: 10px;	
+}
+
+.product-leader .product-overlay span.right i {
+	margin-left: 10px;
+	margin-right: 0;
 }
 
 .testimonial {
